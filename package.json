@@ -10,7 +10,8 @@
     "lint": "npx eslint . --fix",
     "format": "npx prettier --write src/",
     "prepare": "husky install",
-    "lint-staged": "lint-staged"
+    "lint-staged": "lint-staged",
+    "preinstall": "node ./scripts/preinstall.js"
   },
   "dependencies": {
     "pinia": "^2.3.1",
